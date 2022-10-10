@@ -3,6 +3,8 @@ import './App.css';
 import { Animator, ScrollPage,  ScrollContainer, Sticky, StickyIn, FadeIn, Move, MoveIn,  ZoomIn,  batch, Zoom, Fade, MoveOut } from 'react-scroll-motion';
 //Imports for each tag go here
 
+//Personal Access Token
+//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
 const ZoomInScrollOut = batch(StickyIn(), FadeIn(), ZoomIn());
 
 const FadeUp = batch(Fade(), Sticky(), Move());
